@@ -1,0 +1,6 @@
+{
+  "name": "Ire-ner : Information Retrieval and Extraction - Named Entity Recognition",
+  "tagline": "IIITH spring 16, IRE Project",
+  "body": "## Course: Information Retrieval and Extraction (CSE474) Spring ‘16\r\nProfessor: Vasudeva Verma\r\nMentor: Priyanka Bajaj\r\n\r\n### Team Members:  \r\n- Md Tareque Khan (201505521)\r\n- Sourav Sarangi (201301014)\r\n- Darshan Agarwal  (201225189)\r\n\r\n\r\n## Project Description:\r\n\r\nTask: Named entity recognition is one of the first steps in most IE pipelines. The diverse and noisy style of user generated social media text presents serious challenges, however. Performance still lags far behind than on formal text genres such as newswire. The goal of this shared evaluation is to promote research on NER in noisy text.\r\n\r\nDataset and baseline code was provided by the organizers of [NER-Shared-Task]()\r\n\r\n## Overview of baseline code\r\n\r\n## Modification Done\r\n1. Code changes\r\n\r\n2. Lexicons Changes\r\n\r\n## Output\r\n### baseline output\r\n\r\n### build output\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
