@@ -43,7 +43,15 @@ Mentor: Priyanka Bajaj</p>
 
 <h2>
 <a id="overview-of-baseline-code" class="anchor" href="#overview-of-baseline-code" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview of baseline code</h2>
-
+<p>
+  Baseline Code consists of
+1. Featurizer.py :Python code that generates features in format as required by
+crfsuite module
+2. Baseline.sh : Runs the feature generation, crfsuite training of model, model
+dump and tagging on test data.
+3. Connlleval.pl : perl script that evaluates the output of testing and calculates
+precision and F1 measure quantities
+</p>
 <h2>
 <a id="modification-done" class="anchor" href="#modification-done" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Modification Done</h2>
 
@@ -57,9 +65,39 @@ Mentor: Priyanka Bajaj</p>
 
 <h3>
 <a id="baseline-output" class="anchor" href="#baseline-output" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>baseline output</h3>
-
+<pre>
+  
+processed 11570 tokens with 356 phrases; found: 244 phrases; correct: 128.
+accuracy: 96.07%; precision: 52.46%; recall: 35.96%; FB1: 42.67
+company: precision: 72.41%; recall: 51.22%; FB1: 60.00 29
+facility: precision: 40.00%; recall: 30.00%; FB1: 34.29 15
+geo-loc: precision: 64.44%; recall: 50.00%; FB1: 56.31 45
+movie: precision: 11.11%; recall: 33.33%; FB1: 16.67 9
+musicartist: precision: 16.67%; recall: 8.33%; FB1: 11.11 6
+other: precision: 35.00%; recall: 11.48%; FB1: 17.28 20
+person: precision: 60.44%; recall: 47.01%; FB1: 52.88 91
+product: precision: 26.67%; recall: 22.22%; FB1: 24.24 15
+sportsteam: precision: 25.00%; recall: 16.67%; FB1: 20.00 12
+tvshow: precision: 50.00%; recall: 12.50%; FB1: 20.00 2
+</pre>
 <h3>
 <a id="build-output" class="anchor" href="#build-output" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>build output</h3>
+
+<pre>
+processed 11570 tokens with 356 phrases; found: 261 phrases; correct: 157.
+accuracy: 96.57%; precision: 60.15%; recall: 44.10%; FB1: 50.89
+company: precision: 70.97%; recall: 53.66%; FB1: 61.11 31
+facility: precision: 50.00%; recall: 30.00%; FB1: 37.50 12
+geo-loc: precision: 68.09%; recall: 55.17%; FB1: 60.95 47
+movie: precision: 33.33%; recall: 33.33%; FB1: 33.33 3
+musicartist: precision: 12.50%; recall: 8.33%; FB1: 10.00 8
+other: precision: 42.42%; recall: 22.95%; FB1: 29.79 33
+person: precision: 68.27%; recall: 60.68%; FB1: 64.25 104
+product: precision: 62.50%; recall: 27.78%; FB1: 38.46 8
+sportsteam: precision: 40.00%; recall: 22.22%; FB1: 28.57 10
+tvshow: precision: 20.00%; recall: 12.50%; FB1: 15.38 5
+  
+</pre>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/mdtareque/ire-ner">Ire-ner : Information Retrieval and Extraction - Named Entity Recognition</a> is maintained by <a href="https://github.com/mdtareque">mdtareque</a>.</span>
